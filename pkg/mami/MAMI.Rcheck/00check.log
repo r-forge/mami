@@ -1,0 +1,194 @@
+* using log directory 'C:/Users/01429265/Documents/Research_Statistics/Model_Averaging_and_Multiple_Imputation/Software/MAMI_0.9.4/MAMI.Rcheck'
+* using R version 3.3.1 (2016-06-21)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* checking for file 'MAMI/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'MAMI' version '0.9.4'
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+Depends: includes the non-default packages:
+  'lasso2' 'quadprog' 'corpcor' 'boot' 'MASS' 'survival' 'MuMIn' 'zoo'
+  'lme4' 'Amelia' 'BMA'
+Adding so many packages to the search path is excessive and importing
+selectively is preferable.
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking whether package 'MAMI' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Checking should be performed on sources prepared by 'R CMD build'.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... NOTE
+Packages in Depends field not imported from:
+  'Amelia' 'BMA' 'MASS' 'MuMIn' 'boot' 'corpcor' 'lasso2' 'lme4'
+  'quadprog' 'survival' 'zoo'
+  These packages need to be imported from (in the NAMESPACE file)
+  for when this namespace is loaded but not attached.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+lae: no visible global function definition for 'as.formula'
+lae: no visible global function definition for 'l1ce'
+lae: no visible global function definition for 'coefficients'
+lae: no visible global function definition for 'residuals'
+lae: no visible global function definition for 'gcv'
+lae : boot.lasso: no visible global function definition for 'l1ce'
+lae : boot.lasso: no visible global function definition for
+  'coefficients'
+lae: no visible global function definition for 'boot'
+lae: no visible binding for global variable 'sd'
+lae: no visible global function definition for 'lm'
+lae: no visible global function definition for 'predict'
+lae : jma: no visible global function definition for 'l1ce'
+lae : jma: no visible global function definition for 'predict'
+lae : jma: no visible global function definition for
+  'make.positive.definite'
+lae : jma: no visible global function definition for 'solve.QP'
+mami: no visible global function definition for 'na.omit'
+mami: no visible global function definition for 'glm'
+mami: no visible global function definition for 'as.formula'
+mami: no visible global function definition for 'coxph'
+mami: no visible global function definition for 'stepAIC'
+mami: no visible global function definition for 'coefficients'
+mami : msmi.boot: no visible global function definition for 'amelia'
+mami : msmi.boot: no visible global function definition for 'glm'
+mami : msmi.boot: no visible global function definition for
+  'as.formula'
+mami : msmi.boot: no visible global function definition for 'coxph'
+mami : msmi.boot: no visible global function definition for 'stepAIC'
+mami : msmi.boot: no visible global function definition for
+  'coefficients'
+mami: no visible global function definition for 'boot'
+mami: no visible binding for global variable 'sd'
+mami : nquantile: no visible global function definition for 'quantile'
+mami : mami.boot: no visible global function definition for 'amelia'
+mami : mami.boot: no visible global function definition for
+  'as.formula'
+mami: no visible binding for '<<-' assignment to 'mydelta'
+mami : CV: no visible binding for '<<-' assignment to 'mydata'
+mami : CV: no visible global function definition for 'glm'
+mami : CV: no visible binding for global variable 'mydata'
+mami : CV: no visible global function definition for 'predict'
+mami: no visible binding for global variable 'na.fail'
+mami: no visible global function definition for 'glmer'
+mami: no visible global function definition for 'dredge'
+mami: no visible global function definition for 'get.models'
+mami: no visible binding for global variable 'delta'
+mami: no visible binding for global variable 'mydelta'
+mami: no visible global function definition for 'model.avg'
+mami: no visible global function definition for 'bic.glm'
+mami: no visible global function definition for 'bic.surv'
+mami : mami.boot: no visible global function definition for 'glm'
+mami : mami.boot: no visible binding for global variable 'na.fail'
+mami : mami.boot: no visible global function definition for 'glmer'
+mami : mami.boot: no visible global function definition for 'coxph'
+mami : mami.boot: no visible global function definition for
+  'get.models'
+mami : mami.boot: no visible global function definition for 'dredge'
+mami : mami.boot: no visible binding for global variable 'delta'
+mami : mami.boot: no visible binding for global variable 'mydelta'
+mami : mami.boot: no visible global function definition for 'model.avg'
+mami : mami.boot: no visible global function definition for
+  'coefficients'
+mami : mami.boot: no visible global function definition for 'bic.glm'
+mami : mami.boot: no visible global function definition for 'bic.surv'
+mami: no visible global function definition for 'qt'
+mma: no visible global function definition for 'lm'
+mma: no visible global function definition for 'as.formula'
+mma: no visible global function definition for 'solve.QP'
+plot.lae: no visible global function definition for 'par'
+plot.lae: no visible global function definition for 'plot'
+plot.lae: no visible global function definition for 'axis'
+plot.lae: no visible global function definition for 'legend'
+plot.lae: no visible global function definition for 'lines'
+plot.mami: no visible global function definition for 'par'
+plot.mami: no visible global function definition for 'density'
+plot.mami: no visible global function definition for 'rollmean'
+plot.mami: no visible global function definition for 'plot'
+plot.mami: no visible global function definition for 'polygon'
+plot.mami: no visible global function definition for 'lines'
+plot.mami: no visible global function definition for 'legend'
+print.lae: no visible global function definition for 'printCoefmat'
+print.mma: no visible global function definition for 'printCoefmat'
+summary.lae: no visible global function definition for 'printCoefmat'
+summary.mami: no visible binding for global variable 'x'
+Undefined global functions or variables:
+  amelia as.formula axis bic.glm bic.surv boot coefficients coxph delta
+  density dredge gcv get.models glm glmer l1ce legend lines lm
+  make.positive.definite model.avg mydata mydelta na.fail na.omit par
+  plot polygon predict printCoefmat qt quantile residuals rollmean sd
+  solve.QP stepAIC x
+Consider adding
+  importFrom("graphics", "axis", "legend", "lines", "par", "plot",
+             "polygon")
+  importFrom("stats", "as.formula", "coefficients", "density", "glm",
+             "lm", "na.fail", "na.omit", "predict", "printCoefmat", "qt",
+             "quantile", "residuals", "sd")
+to your NAMESPACE file.
+* checking Rd files ... NOTE
+prepare_Rd: HIV.Rd:30-32: Dropping empty section \details
+prepare_Rd: HIV.Rd:33-35: Dropping empty section \source
+prepare_Rd: lae.Rd:43-45: Dropping empty section \details
+prepare_Rd: lae.Rd:60-62: Dropping empty section \note
+prepare_Rd: mami.Rd:144-146: Dropping empty section \note
+prepare_Rd: mma.Rd:43-45: Dropping empty section \note
+prepare_Rd: mma.Rd:49-51: Dropping empty section \seealso
+prepare_Rd: plot.lae.Rd:33-35: Dropping empty section \details
+prepare_Rd: plot.lae.Rd:36-42: Dropping empty section \value
+prepare_Rd: plot.lae.Rd:49-51: Dropping empty section \note
+prepare_Rd: plot.lae.Rd:43-45: Dropping empty section \references
+prepare_Rd: plot.mami.Rd:36-38: Dropping empty section \details
+prepare_Rd: plot.mami.Rd:39-45: Dropping empty section \value
+prepare_Rd: plot.mami.Rd:52-54: Dropping empty section \note
+prepare_Rd: plot.mami.Rd:46-48: Dropping empty section \references
+prepare_Rd: plot.mami.Rd:58-60: Dropping empty section \seealso
+prepare_Rd: print.lae.Rd:22-24: Dropping empty section \details
+prepare_Rd: print.lae.Rd:25-31: Dropping empty section \value
+prepare_Rd: print.lae.Rd:38-40: Dropping empty section \note
+prepare_Rd: print.lae.Rd:32-34: Dropping empty section \references
+prepare_Rd: print.mami.Rd:26-28: Dropping empty section \details
+prepare_Rd: print.mami.Rd:29-35: Dropping empty section \value
+prepare_Rd: print.mami.Rd:42-44: Dropping empty section \note
+prepare_Rd: print.mami.Rd:36-38: Dropping empty section \references
+prepare_Rd: summary.lae.Rd:22-24: Dropping empty section \details
+prepare_Rd: summary.lae.Rd:25-31: Dropping empty section \value
+prepare_Rd: summary.lae.Rd:38-40: Dropping empty section \note
+prepare_Rd: summary.lae.Rd:32-34: Dropping empty section \references
+prepare_Rd: summary.mami.Rd:26-28: Dropping empty section \details
+prepare_Rd: summary.mami.Rd:29-35: Dropping empty section \value
+prepare_Rd: summary.mami.Rd:42-44: Dropping empty section \note
+prepare_Rd: summary.mami.Rd:36-38: Dropping empty section \references
+prepare_Rd: print.mma.rd:22-24: Dropping empty section \details
+prepare_Rd: print.mma.rd:25-31: Dropping empty section \value
+prepare_Rd: print.mma.rd:38-40: Dropping empty section \note
+prepare_Rd: print.mma.rd:32-34: Dropping empty section \references
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... OK
+* checking PDF version of manual ... OK
+* DONE
+Status: 5 NOTEs
