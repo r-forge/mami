@@ -1,0 +1,24 @@
+exportPattern("^[^\\.]")
+importFrom(survival,coxph)
+importFrom(survival,Surv)
+importFrom(survival,strata)
+importFrom(MASS, stepAIC)
+importFrom(boot,boot)
+importFrom(MuMIn, dredge)
+importFrom(MuMIn, model.avg)
+importFrom(MuMIn, get.models)
+importFrom(BMA, bic.surv)
+importFrom(BMA, bic.glm)
+importFrom(Amelia, amelia)
+importFrom(lme4, glmer)
+importFrom(quadprog, solve.QP)
+importFrom(lasso2, l1ce)
+importFrom(lasso2, gcv)
+importFrom(zoo, rollmean)
+importFrom(corpcor, make.positive.definite)
+importFrom(graphics, axis, legend, lines, par, plot, polygon)
+importFrom(stats, as.formula, coefficients, density, glm,
+             lm, na.fail, na.omit, predict, printCoefmat, qt,
+             quantile, residuals, sd)
+
+
