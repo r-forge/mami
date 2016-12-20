@@ -1,0 +1,12 @@
+Package: MAMI
+Type: Package
+Title: Model Averaging and Model Selection after Multiple Imputation
+Version: 0.9.8
+Date: 20 December 2016
+Author: Michael Schomaker
+Maintainer: Michael Schomaker <michael.schomaker@uct.ac.za>
+Description: Performs model selection/averaging on multiply imputed datasets and combines the resulting estimates. The package also provides access to less frequently used model averaging techniques and offers integrated bootstrap estimation.
+Depends: R (>= 3.3.2)
+Imports: quadprog, corpcor, boot, MASS, survival, MuMIn, zoo, lme4, Amelia, BMA, ggplot2, parallel, glmnet, mice
+License: GPL-2
+LazyData: yes
