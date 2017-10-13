@@ -1,0 +1,39 @@
+citHeader("To cite MAMI in publications, please use:")
+
+vers <- paste("R package version", meta$Version)
+
+bibentry(bibtype="article",
+  author = personList(as.person("Michael Schomaker"),
+                   as.person("Christian Heumann")),
+  title = "Model Selection and Model Averaging after Multiple Imputation",
+  year = "2014",
+  journal      = "Computational Statistics and Data Analysis",
+  year         = "2014",
+  volume       = "71",
+  pages        = "758--770",
+  textVersion = paste("I) Michael Schomaker, Christian Heumann (2014).",
+        "Model Selection and Model Averaging after Multiple Imputation.",
+        "Computational Statistics and Data Analysis, 71: 758-770."),
+)
+
+bibentry(bibtype="Manual",
+  title        = "{MAMI}: Model Averaging (and Model Selection) after multiple Imputation",
+  author       = "Michael Schomaker",
+  year = 2017,
+  note = vers,
+  textVersion  =
+  paste("II) Michael Schomaker (2017)",
+        "MAMI: Model Averaging (and Model Selection) after Multiple Imputation.",
+        "URL: http://mami.r-forge.r-project.org.",
+        vers)
+)
+
+bibentry(bibtype="Manual",
+  title        = "Model Averaging and Model Selection after Multiple Imputation using the {R}-package MAMI",
+  author       = "Michael Schomaker",
+  year = 2017,
+  textVersion  =
+  paste("III) Michael Schomaker (2017)",
+        "Model Averaging and Model Selection after Multiple Imputation using the R-package MAMI",
+        "URL: http://mami.r-forge.r-project.org.")
+)
