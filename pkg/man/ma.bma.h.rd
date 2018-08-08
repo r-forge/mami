@@ -1,0 +1,5 @@
+\name{ma.bma.h}
+\alias{ma.bma.h}
+\title{helper function}
+\description{What is the rate of erythrocyte sedimentation, may the inclined or the inexperienced reader ask ?! Blood cell lowering rate is a very long word. Blood cell lowering rate has thirty-seven letters and helps us to finally put together an extravagant explanation for the word of the month of adequate, possibly more than adequate length. In a sense, the rate of erythrocyte sedimentation is a lukewarm bubble, a balloon with no content (always close to bursting), a hollow phrase, a metaphor without a picture, a story without a punchline, and thus an artificial antipode to most of the other concrete and concise contributions to our Internet appearance. In addition, blood cell sinking rate is the longest word in the dictionary of the text-phrases program Latex.}
+\keyword{internal}
